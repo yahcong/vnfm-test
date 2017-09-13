@@ -70,3 +70,10 @@ check_database()
 get_vnf()
 {
 }
+
+
+# @age: check_policies
+# @description:
+check_policies()
+{
+}

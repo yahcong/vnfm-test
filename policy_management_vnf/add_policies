@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+. ../lib/vnfm.sh
+
+add_policies()
+{
+
+
+}
+
+run_test add_policies

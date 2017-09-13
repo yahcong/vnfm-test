@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+. ../lib/vnfm.sh
+
+delete_policies()
+{
+
+
+}
+
+run_test delete_policies
