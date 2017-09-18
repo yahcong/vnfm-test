@@ -1,0 +1,23 @@
+VDU_list:
+[[
+
+{u'name': 'DIAFep', 'artifacts': {}, u'image': 'DIAFep_beta3', 'properties': {'min_instances': 2, 'default_instances': 2, 'max_instances': 2}, u'volume': {u'size': '300 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider', 'provider2']}, 
+
+{u'name': 'AS_Manager', 'artifacts': {}, u'image': 'AS_Manager_beta3', 'properties': {'min_instances': 1, 'default_instances': 1, 'max_instances': 1}, u'volume': {u'size': '100 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider', 'provider3']}, 
+
+{u'name': 'IPS', 'artifacts': {}, u'image': 'vIPS', 'properties': {'min_instances': 2, 'default_instances': 2, 'max_instances': 2}, u'volume': {u'size': '100 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider', 'provider2']}, 
+
+{u'name': 'DBSlave', 'artifacts': {}, u'image': 'asbase', 'properties': {'min_instances': 1, 'default_instances': 1, 'max_instances': 1}, u'volume': {u'size': '100 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider']}, 
+
+{u'name': 'LB', 'artifacts': {}, u'image': 'a10', 'properties': {'min_instances': 2, 'default_instances': 2, 'max_instances': 2}, u'volume': {u'size': '100 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider', 'provider2']},
+
+{u'name': 'SCPAS', 'artifacts': {}, u'image': 'SCPAS_beta3', 'properties': {'min_instances': 1, 'default_instances': 1, 'max_instances': 4}, u'volume': {u'size': '300 GB'}, u'flavor': {u'mem_size': '4 GB', u'num_cpus': 2, u'disk_size': '40 GB'}, u'networks': ['provider', 'provider2']}, 
+
+{u'name': 'DBMaster', 'artifacts': {}, u'image': 'DBServ_beta3', 'properties': {'min_instances': 1, 'default_instances': 1, 'max_instances': 1}, u'volume': {u'size': '300 GB'}, u'flavor': {u'mem_size': '4 GB', u'num_cpus': 2, u'disk_size': '40 GB'}, u'networks': ['provider']}, 
+
+{u'name': 'HTTPStack', 'artifacts': {}, u'image': 'HTTPStack_beta3', 'properties': {'min_instances': 2, 'default_instances': 2, 'max_instances': 2}, u'volume': {u'size': '300 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider', 'provider3']}, 
+
+{u'name': 'SMPAgent', 'artifacts': {}, u'image': 'asbase', 'properties': {'min_instances': 2, 'default_instances': 2, 'max_instances': 2}, u'volume': {u'size': '100 GB'}, u'flavor': {u'mem_size': '500 MB', u'num_cpus': 1, u'disk_size': '20 GB'}, u'networks': ['provider', 'provider3']}
+
+]]
+
